@@ -17,6 +17,7 @@ class Genre < ActiveRecord::Base
     names = []
     self.artists each do |n|
       names << n.name
+      binding.pry
     end
     binding.pry
   end
