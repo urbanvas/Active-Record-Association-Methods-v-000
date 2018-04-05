@@ -19,6 +19,5 @@ class Genre < ActiveRecord::Base
       names << n.name
       binding.pry
     end
-    binding.pry
   end
 end
